@@ -238,12 +238,19 @@ a {
     background-image: url("../images/bg-curvy-mobile.svg");
   }
 
+  .nav-items {
+    padding: 0 5px;
+    line-height: 0;
+  }
+
   .title {
     width: 100%;
   }
 
   .logo {
     width: 20%;
+    position: relative;
+    top: 10px;
   }
 
   .feature-p1, .feature-p2 {
@@ -252,11 +259,11 @@ a {
 
   .box2 {
     display: block;
-    padding:0;
-    display:100%;
+    padding: 0;
+    display: 100%;
   }
 
-  .title, .stay-productive,.feautures, .feauture1, .feauture2, .feauture3, .feauture4, .testimonials {
+  .title, .stay-productive, .feautures, .feauture1, .feauture2, .feauture3, .feauture4, .testimonials {
     display: block;
     width: 100%;
     margin: auto;
@@ -303,6 +310,6 @@ a {
 
   .call-5 {
     margin: auto;
-    width:40%;
+    width: 40%;
   }
 }
