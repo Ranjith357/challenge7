@@ -1,7 +1,7 @@
 body {
   color: white;
   font-family: 'Open Sans', sans-serif;
-  margin:0;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -238,8 +238,12 @@ a {
     background-image: url("../images/bg-curvy-mobile.svg");
   }
 
-  .logo{
-    width:25%;
+  .title {
+    width: 80%;
+  }
+
+  .logo {
+    width: 20%;
   }
 
   .feature-p1, .feature-p2 {
@@ -248,18 +252,24 @@ a {
 
   .box2 {
     display: block;
+    padding:0;
+    display:80%;
   }
 
-  #container-3, .title, .stay-productive, .feauture1, .feauture2, .feauture3, .feauture4, .testimonials {
+  .title, .stay-productive, .feauture1, .feauture2, .feauture3, .feauture4, .testimonials {
     display: block;
     width: 80%;
     margin: auto;
   }
 
+  #container-3 {
+    width: 70%;
+  }
+
   .head2 {
     margin: 80px auto;
     width: 90%;
-    padding-left:0;
+    padding-left: 0;
   }
 
   .testimonial1, .testimonial2, .testimonial3 {
@@ -278,8 +288,8 @@ a {
     top: 50px;
   }
 
-  .email-input ,.btn-getstarted2 {
-    width:80%;
+  .email-input, .btn-getstarted2 {
+    width: 80%;
   }
 
   .bottom {
@@ -293,6 +303,6 @@ a {
 
   .call-5 {
     margin: auto;
-    width: 25%;
+    width:40%;
   }
 }
