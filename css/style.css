@@ -233,9 +233,13 @@ a {
 }
 
 /* Media Query */
-@media(max-width:1020px) {
+@media(max-width:850px) {
   #container-1 {
     background-image: url("../images/bg-curvy-mobile.svg");
+  }
+
+  .logo{
+    width:25%;
   }
 
   .feature-p1, .feature-p2 {
@@ -255,6 +259,7 @@ a {
   .head2 {
     margin: 80px auto;
     width: 90%;
+    padding-left:0;
   }
 
   .testimonial1, .testimonial2, .testimonial3 {
@@ -273,8 +278,8 @@ a {
     top: 50px;
   }
 
-  .btn-getstarted2 {
-    width: 400px;
+  .email-input ,.btn-getstarted2 {
+    width:80%;
   }
 
   .bottom {
