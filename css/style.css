@@ -95,7 +95,7 @@ a {
 
 .feauture1, .feauture2, .feauture3, .feauture4 {
   width: 35%;
-  padding: 30px;
+  padding: 30px 0;
   justify-content: space-between;
   margin: auto;
 }
@@ -239,7 +239,7 @@ a {
   }
 
   .title {
-    width: 80%;
+    width: 100%;
   }
 
   .logo {
@@ -253,12 +253,12 @@ a {
   .box2 {
     display: block;
     padding:0;
-    display:80%;
+    display:100%;
   }
 
-  .title, .stay-productive, .feauture1, .feauture2, .feauture3, .feauture4, .testimonials {
+  .title, .stay-productive,.feautures, .feauture1, .feauture2, .feauture3, .feauture4, .testimonials {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 
